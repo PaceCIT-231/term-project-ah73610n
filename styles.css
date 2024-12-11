@@ -1,0 +1,108 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4fdf3; /* Light green */
+    color: #2e5637; /* Dark green */
+}
+
+header {
+    background: #d9f4cc; /* Soft green */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2e5637; /* Dark green */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #a89f4b; /* Gold */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: #a89f4b; /* Gold */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #8f7f3a; /* Darker gold */
+}
+
+footer {
+    text-align: center;
+    background: #d9f4cc; /* Soft green */
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#cart {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f9fff7;
+}
+
+#cart-items li {
+    margin: 5px 0;
+}
+
+#confirmation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
