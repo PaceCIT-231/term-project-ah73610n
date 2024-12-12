@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - LushAve Beauty</title>
+    <link rel="stylesheet" href="checkout_styles.css">
+    <script src="checkout_script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Checkout</h1>
+        <form id="checkoutForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <button type="submit" class="cta-button">Submit</button>
+        </form>
+        <div id="confirmation" style="display: none;">
+            <h2>Thank you for your booking!</h2>
+            <p>Your appointment has been confirmed. A confirmation email has been sent to you.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 LushAve Beauty. All rights reserved.</p>
+    </footer>
+</body>
+</html>
